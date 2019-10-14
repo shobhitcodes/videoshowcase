@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Video Slider</title>
@@ -27,49 +28,103 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row video-slider-row">
-            <div class="col-sm-12 col-md-4 col-lg-4 video-info-left">
-                <div class="video-left">
-
+   <!--  <div class="container">
+        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+            <div class="card m-b-0">
+                <div class="card-header collapsed" role="tab" id="headingOneH" href="#collapseOneH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                    <a class="card-title">What is your favorite color?</a>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 video-info-right">
-                <div class="">
-                    <div class="video-content">
-                        <h1>Introducing the Canon XF405 & XF400 Camcorders</h1>
-                        <p>Really compact light form factor and all the features and quality that I want versus a more
-                            expensive and heavier higher end camera. Wi-Fi connectivity to iPhone and Laptop is VERY
-                        convenient. I use the iPhone as a remote trigger for low light.</p>
+                <div class="collapse" id="collapseOneH" role="tabpanel" aria-labelledby="headingOneH">
+                    <div class="card-body">
+                        Blue! No, Red!
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>  
+    </div> -->
 
-    <div class="container">
-        <div class="row video-slider-row">
-            <div class="col-sm-12 col-md-4 col-lg-4 video-info-left">
-                <div class="video-left">
-
+    <div class="container pad-out">
+        <div class="toggle-bar-wrapper">
+            <div class="toggle-bar" class="btn btn-primary" data-toggle="collapse" href="#content" role="button" aria-expanded="false" aria-controls="content">
+                <div class="toggle-bar-content noselect">
+                    Videos
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 video-info-right">
-                <div class="">
-                    <div class="video-content">
-                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis augue id orci euismod consectetur congue eget velit. Pellentesque et scelerisque odio, non auctor lorem. Donec rhoncus fringilla tortor, eget vulputate ante elementum ac. Aliquam a est in nulla hendrerit ultrices vel non felis. Nullam non fringilla sapien. Praesent in justo at mauris sagittis pulvinar eget sit amet tellus. Morbi fringilla ac massa ac interdum. </p>
+        </div>
+        <div class="collapse" id="content">
+            <div class="container pad-out">
+                <div class="filter-wrapper">
+                    <div class="filter-one">
+                        <div class="filter-text">Sort By:</div>
+                        <div class="filter-content">
+                            <div class="filter-drop">Featured</div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row video-slider-row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 video-info-left">
+                        <div class="video-left">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 video-info-right">
+                        <div class="">
+                            <div class="video-content">
+                                <h1>Introducing the Canon XF405 & XF400 Camcorders</h1>
+                                <p>Really compact light form factor and all the features and quality that I want versus a more
+                                    expensive and heavier higher end camera. Wi-Fi connectivity to iPhone and Laptop is VERY
+                                convenient. I use the iPhone as a remote trigger for low light.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row video-slider-row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 video-info-left">
+                        <div class="video-left">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 video-info-right">
+                        <div class="">
+                            <div class="video-content">
+                                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis augue id orci euismod consectetur congue eget velit. Pellentesque et scelerisque odio, non auctor lorem. Donec rhoncus fringilla tortor, eget vulputate ante elementum ac. Aliquam a est in nulla hendrerit ultrices vel non felis. Nullam non fringilla sapien. Praesent in justo at mauris sagittis pulvinar eget sit amet tellus. Morbi fringilla ac massa ac interdum. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row video-slider-row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 video-info-left">
+                        <div class="video-left">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 video-info-right">
+                        <div class="">
+                            <div class="video-content">
+                                <h1>Introducing the Canon XF405 & XF400 Camcorders</h1>
+                                <p>Really compact light form factor and all the features and quality that I want versus a more
+                                    expensive and heavier higher end camera. Wi-Fi connectivity to iPhone and Laptop is VERY
+                                convenient. I use the iPhone as a remote trigger for low light.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
 
+</body>
 </html>
