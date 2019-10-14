@@ -86,11 +86,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 143px;
+  width: 150px;
   height: 40px;
   border: solid 1px #e22128;
   background: white;
   cursor: pointer;
+  padding: 11px 20px;
 }
 
 .expand-btn {
@@ -190,4 +191,28 @@
   line-height: 1.5;
   letter-spacing: normal;
   color: black;
+}
+
+.load-wrapper {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.load-box {
+  text-transform: uppercase;
+  /*font-family: ProximaNova;*/
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #e22128;
+  border: solid 1px #e22128;
+  padding: 11px 22px;
+  cursor: pointer;
 }
