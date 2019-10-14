@@ -54,3 +54,57 @@
   line-height: 1.43;
 }
 /*# sourceMappingURL=style.css.map */
+
+.header {
+  margin-top: 56px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-text {
+  width: 211px;
+  height: 61px;
+  /*font-family: ProximaNova;*/
+  font-size: 46px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+}
+
+.button-wrapper {
+  height: 60px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #d6dbe2;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 143px;
+  height: 40px;
+  border: solid 1px #e22128;
+  background: white;
+  cursor: pointer;
+}
+
+.expand-btn {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #e22128;
+  text-transform: uppercase;
+}
+
+.pad-out {
+  padding : 0 !important;
+}
